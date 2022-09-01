@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    
+    <link href="CSS/styles.css" rel="stylesheet" />
+    
+</head>
+<header class="main-header">
+    <img src="Img/logo.png" alt="Pokemon Logo" class="logo">
+</header>
+
+<body>
+    
+            <form action="" onsubmit="searchPokemon(event)">
+            
+            <input type="text"  name="pokemon" id="name_field" class="nes-input" autocomplete="off">
+        </form>
+        
+        <button type="button" id="btn" class="nes-btn is-success">Mostrar Pokemon</button>
+        
+        <div data-poke-card class="poke-card">
+            <div data-poke-name>Pokedex</div>
+            <div data-poke-img-container class="img-container">
+                <img data-poke-img class="poke-img" src="Img/poke-shadow.png"/>
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
+            <script src="JS/script.js" type="text/javascript" defer></script>
+        </div>
+        
+    
+
+
+
+    
+</body>
+</html>
